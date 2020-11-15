@@ -1,0 +1,98 @@
+8:14 AM 1/31/2007
+* Add MakeWay() to GoForward()
+* Improve IsBlackFeasible() by adding bfound
+* Move IsBlackFeasible()  to MakeWay()
+
+2:25 PM 1/31/2007
+* Add m_row_ord[] array which contains pic cord for scan row vice
+
+9:41 AM 2/2/2007
+* Height sorting for SmartPick() in addition to color sorting
+* Perfectly fill belly (120) if possible(PaintBlack())
+
+11:47 AM 2/2/2007
+* Add realbk member to map and many other placess that needs
+  this is to prevent reducing helth deu to black painted color packs
+
+5:23 PM 2/2/2007
+* Add CollectColor(robot,MODE_COLE_SECURE) to the Teleporting pos of Finish()
+
+10:58 AM 2/4/2007
+* Optimize TryDirections(), Remove FaceUnexplore(), Now save some bat due to low turns
+
+1:03 PM 2/4/2007
+* Optimize IsBeenThere()
+
+9:18 AM 2/5/2007
+* Replace remaining robot.Teleport() by DoTelePort(robot)
+* m_full_bat	= m_rem_bat + 1
+
+8:51 AM 2/6/2007
+* Added CMyBatAgent class
+* Move CMyStore up
+* Remove Bat-Booms
+
+8:09 AM 2/7/2007
+* Fix a critical bug in GetFreeSteps()
+* Add "if((m_map[m_gut_p.x][y].type==CL_FREE)||(m_map[m_gut_p.x][y].type==CL_BLACK))" to CMyGutter::CodSearch()
+* Add pic taking capability to CMyTelePort::CentreTeleport() for avoid passing teleports.
+* Add Teleport detection for TyrDirection
+
+1:04 PM 2/8/2007
+* Bind all stock things to a one structure
+* Re-use secure packs tags
+* Add DropBlackPacks() to Finish()
+* Add DropBlackPacks() to BYTE PickColor(CRobot &robot)
+
+7:24 AM 2/9/2007
+* Now GetFreeStepsEx(),GetFreeSteps() return in map eages
+
+3:26 PM 2/10/2007
+* Added exchanging ability (So many changes)
+
+8:48 PM 2/10/2007
+* Remove m_point global ver
+* Removed MAP_INVALIED constant
+
+7:30 PM 2/11/2007
+* Secure list is sorted to packs type
+
+9:45 AM 2/12/2007
+* Fixed bug in void CMyBatAgent::PickSecured()
+
+11:36 AM 2/13/2007
+* Add 2000 threshold to CheckBatEx()
+* Add Belly Exchange
+
+9:01 AM 2/14/2007
+* Color stock now sorted to type
+* Exchanging method is choose by calculating the gain
+
+9:00 AM 2/15/2007
+* Add st_bat_avg to DWORD CMyBattery::SendAgent()
+* Move CMyMap up
+
+2:31 PM 2/16/2007
+* Exchanged copletly reviced
+* Now exchange done using m_cat
+* Add SaveOldTag() and GetOldTag()
+
+1:29 PM 2/17/2007
+* Separate color stock removed
+* Fixed critical bug in memcpy() when managing all stock types
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

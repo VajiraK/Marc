@@ -1,0 +1,73 @@
+MARC BATCH RUN 6 - MAPS
+
+Please note that these maps are provided
+"as is" without express or implied warranty.
+
+The amount of initial battery is shown as
+'Battery Life,xxx' under each map name.
+(Ex: Battery Life,2500)
+
+====================================
+b6_m1.mmmf
+
+Width,55
+Height,45
+Battery Life,20000
+Total Points,810
+Yellow Packs,7
+Pink Packs,4
+Brown Packs,13
+Black Packs,4
+Battery Packs,0
+
+====================================
+b6_m2.mmmf
+
+Width,55
+Height,70
+Battery Life,40000
+Total Points,1205
+Yellow Packs,11
+Pink Packs,8
+Brown Packs,13
+Black Packs,4
+Battery Packs,0
+
+====================================
+b6_m3.mmmf
+
+Width,95
+Height,55
+Battery Life,50000
+Total Points,1380
+Yellow Packs,7
+Pink Packs,10
+Brown Packs,21
+Black Packs,0
+Battery Packs,0
+
+====================================
+b6_m4.mmmf
+
+Width,95
+Height,75
+Battery Life,75000
+Total Points,1605
+Yellow Packs,7
+Pink Packs,19
+Brown Packs,29
+Black Packs,5
+Battery Packs,1
+
+====================================
+b6_m5.mmmf
+
+Width,95
+Height,75
+Battery Life,100000
+Total Points,2570
+Yellow Packs,17
+Pink Packs,24
+Brown Packs,34
+Black Packs,5
+Battery Packs,1

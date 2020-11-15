@@ -1,0 +1,7 @@
+8:14 AM 1/31/2007
+* Add MakeWay() to GoForward()
+* Improve IsBlackFeasible() by adding bfound
+* Move IsBlackFeasible()  to MakeWay()
+
+2:25 PM 1/31/2007
+* Add m_row_ord[] array which contains pic cord for scan row vice

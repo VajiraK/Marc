@@ -1,0 +1,7 @@
+Hi,
+
+It's me again. Don't think seriously about the above forum. I have written it in the shock of being unable to finish my coding on time so pardon me. And obviously that bug is not much usefull since there is a bug in that bug. (The bug is that you can blindly or knowingly pickup or drop any package with both X,Y coordinates going down to -31. So don't you get the rational. If it worked upto atleast -1024 you can create a robot who is brute forcely pick all the packages and drop unnecessary things. You see the cost for brute forcely check 200×200 map is only 40000 Battery packs. )
+
+Think different.
+
+

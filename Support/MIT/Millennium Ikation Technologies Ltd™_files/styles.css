@@ -1,0 +1,78 @@
+.bottomtxtHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 7.3pt; COLOR: #1c4667; FONT-FAMILY: Tahoma
+}
+.mainbdytxthome {
+	FONT-SIZE: 11px; COLOR: #616a74; FONT-FAMILY: Tahoma; TEXT-ALIGN: justify
+}
+.mainproducstHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #5c7b8e; FONT-FAMILY: Times New Roman, Times, serif
+}
+.mainproducsttext {
+	FONT-SIZE: 9px; COLOR: #5c7b8e; FONT-FAMILY: Tahoma
+}
+.text {
+	FONT-SIZE: 11px; COLOR: #1c4667; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+.text1 {
+	FONT-SIZE: 12px; COLOR: #1c4667; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+.headingCOn {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #1c4667; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+.heading {
+	FONT-SIZE: 9pt; COLOR: #1c4667; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.mainbdytxtMitbBoxHead {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Tahoma
+}
+.mainbdytxtMitbBox {
+	FONT-SIZE: 11px; COLOR: #666666; FONT-FAMILY: Tahoma
+}
+.leftBoxTxt {
+	FONT-SIZE: 7.5pt; COLOR: #1c4667; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.leftBoxTxtDown {
+	FONT-SIZE: 11px; COLOR: #1c4667; FONT-FAMILY: Tahoma
+}
+.bottomtx {
+	FONT-SIZE: 9px; COLOR: #1c4667; FONT-FAMILY: Tahoma
+}
+.hometxtcapital {
+	FONT-SIZE: 11px; COLOR: #5c7b8e; FONT-FAMILY: Tahoma
+}
+.serchBox2 {
+	FONT-SIZE: 11px; BORDER-LEFT-COLOR: #76b6d1; BORDER-BOTTOM-COLOR: #76b6d1; WIDTH: 114px; BORDER-TOP-COLOR: #76b6d1; FONT-FAMILY: Tahoma; HEIGHT: 16px; BACKGROUND-COLOR: #cddfe9; BORDER-RIGHT-COLOR: #76b6d1
+}
+.serchBoxinner {
+	FONT-SIZE: 11px; BORDER-LEFT-COLOR: #76b6d1; BORDER-BOTTOM-COLOR: #76b6d1; WIDTH: 114px; BORDER-TOP-COLOR: #76b6d1; FONT-FAMILY: Tahoma; HEIGHT: 12px; BACKGROUND-COLOR: #cddfe9; BORDER-RIGHT-COLOR: #76b6d1
+}
+.maindroupdown {
+	FONT-SIZE: 9px; COLOR: #666666; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.italicstext {
+	FONT-SIZE: 8.2pt; COLOR: #1c4667; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.mnu {
+	FONT-SIZE: 11.4pt; COLOR: #255584; FONT-FAMILY: Monotype Corsiva, Verdana, Arial, Helvetica, sans-serif
+}
+SUP {
+	FONT-SIZE: 7.5pt; COLOR: #1c4667; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A:link {
+	TEXT-DECORATION: none
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #663399; TEXT-DECORATION: underline
+}
+.tbox {
+	BORDER-RIGHT: #d6dee0 1px solid; BORDER-TOP: #d6dee0 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #d6dee0 1px solid; COLOR: #666666; BORDER-BOTTOM: #d6dee0 1px solid; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 11px; COLOR: #1c4667; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: justify
+}
+.redtext {
+	FONT-SIZE: 11px; COLOR: #ff0000; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; TEXT-ALIGN: center
+}

@@ -1,0 +1,480 @@
+/* MARC CSS */
+html,body{
+background:url(back0000.jpg) #1F2935;
+color:#CCCCCC;
+font:11px Tahoma,Arial,Verdana;
+height:100%;
+margin:0px;
+}
+input,textarea,select,option{
+font:11px Tahoma,Arial,Verdana;
+}
+td a img{
+border:none;
+}
+.about{
+background:url(button_a.jpg);
+width:77px;
+}
+.aboutmit{
+background:url(button40.jpg);
+height:29px;
+width:133px;
+}
+.bodytextdark,.blacktext{
+color:#000000;
+}
+.bullet{
+color:#99CC00;
+font-family:Tahoma,Verdana;
+height:13px;
+margin:0px;
+padding:0px 2px 0px 0px;
+text-align:right;
+text-decoration:none;
+}
+.buttonmiddleline{
+background:url(button_m.jpg);
+text-align: center;
+}
+.buttons{
+background:#000000;
+border:1px solid #555B6C;
+color:#FFFFFF;
+font-weight:bold;
+height:21px;
+}
+.cancel{
+background:#41454F;
+border:1px solid #1F2630;
+color:#000000;
+}
+.content td{
+text-align:left !important;
+}
+.contract{
+display:none;
+}
+.copyright{
+color:#999999;
+font:10px Arial,Helvetica,sans-serif;
+}
+.countback{
+background:url(countbac.gif);
+height:33px;
+text-align:center;
+}
+.countback2{
+height:33px;
+text-align:center;
+}
+.countdownback{
+background:url(intoimag.jpg);
+}
+.default{
+font-weight:bold;
+}
+.dimmed{
+color:#686868;
+}
+.downloads{
+background:url(button30.jpg);
+height:29px;
+width:80px;
+}
+.downloads{
+background:url(button_d.jpg);
+width:74px;
+}
+.errorbody,#forumTable .topic,.textpath{
+font-size:12px;
+text-align:left;
+}
+.errorinput{
+background:#FFF2F2;
+border:2px solid #D40000;
+color:#DD0000;
+}
+.errormid{
+background:url(errormid.jpg);
+height:275px;
+padding-left:30px;
+text-align:left;
+vertical-align:middle;
+}
+.errorMsg{
+color:#FF6666;
+font-weight:bold;
+}
+.errortable,#outer{
+height:100%;
+vertical-align:middle;
+width:100%;
+}
+.expand{
+[anything but display];
+}
+.faq{
+background:url(button_f.jpg);
+width:35px;
+}
+.footback{
+background:url(footback.jpg);
+height:57px;
+}
+.foottext{
+clip:rect(auto,auto,auto,30px);
+color:#999999;
+display:block;
+font-weight:normal;
+left:30px;
+margin-left:30px;
+padding-left:30px;
+text-align:left;
+text-indent:30px;
+}
+.forum{
+background:url(button_f.jpg);
+width:53px;
+}
+.forumback{
+background:url(forumbac.jpg);
+}
+.heading{
+color:#FFFFFF;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 16px;
+}
+.home{
+background:url(button10.jpg);
+height:29px;
+text-decoration:none;
+width:55px;
+}
+.home{
+background:url(button_h.jpg);
+width:46px;
+}
+.homebback{
+background:url(home_bba.jpg);
+}
+.homebodytext{
+color:#999999;
+text-align:left;
+text-decoration:none;
+}
+.homemiddlebackground{
+background:url(homemidd.jpg);
+}
+.horline{
+background:url(horline0.gif);
+height:2px;
+}
+.infotips{
+background:#222C38;
+font-size:10px;
+}
+.insidebback{
+background:url(insideb_.gif);
+}
+.insidelogonback{
+background:url(inside_h.jpg);
+}
+.secondnavi {
+font-size:12px;
+color:#FFFFFF;
+margin:10px;
+padding:10px;
+}
+.secondnavi:link {
+color:#99CC00;
+text-decoration:none;
+}
+.line{
+background:url(line0000.gif);
+height:2px;
+}
+.loginback{
+background:url(lo_back0.gif);
+}
+.loginback2{
+background:url(lo_back2.jpg);
+}
+.logintextlinks{
+color:#000000;
+text-decoration:none;
+}
+.mand,.navitext:hover,.homewhitetext{
+color:#FFFFFF;
+}
+.middle{
+background:#FFFFFF;
+text-align:left;
+vertical-align:top;
+width:498px;
+}
+.navibackground{
+background:url(navi_bac.jpg);
+}
+.navitext{
+color:#000000;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+}
+.navitexthighlight{
+color:#FFFFFF;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+}
+.preload{
+text-align:left;
+}
+.profilebox{
+background:#41454F;
+border:1px solid #1F2630;
+color:#CCCCCC;
+text-align:center;
+vertical-align:top;
+}
+.righttext{
+text-align:right;
+}
+.savechangers{
+background:#41454F;
+border:1px solid #1F2630;
+color:#000000;
+width:90px;
+}
+.score{
+background:url(button_s.jpg);
+width:79px;
+}
+.scoreboardhead{
+padding-left:5px;
+}
+.scoreboardmainheading2{
+color:#011C31;
+font:15px Arial,Helvetica,sans-serif;
+}
+.scoreboardtext{
+padding:2px;
+text-decoration:none;
+}
+.scorebtl{
+background:url(score_bt.gif);
+}
+.scorebtr{
+background:url(score_bt.gif);
+}
+.scoretopline{
+background:url(score_ho.gif);
+}
+.scoretopline2{
+background:url(score_ho.gif);
+}
+.scoreverlineleft{
+background:url(score_ve.gif);
+}
+.scoreverlinerite{
+background:url(score_ve.gif);
+}
+.smalltext{
+color:#000000;
+font:10px Arial,Helvetica,sans-serif;
+}
+.stepshading{
+color:#FFCC00;
+font-weight:bold;
+}
+.story{
+background:url(button20.jpg);
+height:29px;
+width:55px;
+}
+.story{
+background:url(button_s.jpg);
+width:44px;
+}
+.textfields{
+background:#555B6C;
+border:1px solid #333333;
+color:#FFFFFF;
+font-size:11px;
+font-weight:normal;
+}
+.textlink,.logintextlinks:hover{
+color:#99CC00;
+text-decoration:none;
+}
+.textlink:hover{
+color:#0099CC;
+text-decoration:underline;
+}
+.textpathlink:hover{
+color:#99CC00;
+font-size:12px;
+text-decoration:underline;
+}
+.topbackshadow{
+background:url(top_back.jpg);
+}
+.tutorials{
+background:url(button_t.jpg);
+width:61px;
+}
+.textpathlink{
+font-size:12px;
+text-decoration:none;
+}
+.username{
+font-size:12px;
+color:#FFCC00;
+}
+.verticaline{
+background:url(vertical.gif);
+width:2px;
+}
+.whitetextlinks{
+color:#999999;
+text-decoration:none;
+}
+.whitetextlinks:hover{
+color:#99CC00;
+text-decoration:underline;
+}
+#fff{
+padding-left:30px;
+width:250px;
+}
+.replyTable{
+text-align:left;
+margin:8px 0px 0px 0px;
+}
+.replyTable .user{
+color:#FFCC00;
+}
+.date{
+color:#999999;
+font-size:10px;
+text-align:right;
+white-space:nowrap;
+vertical-align:middle;
+padding-left:4px;
+padding-right:4px;
+}
+.reply{
+padding:12px;
+}
+#forumTable,#replyTable,#postTable,#headerimg{
+text-align:left;
+}
+#registerdusers, #prizeinfo{
+padding-left:15px;
+padding-right:15px;
+}
+#reply,#title,#body,#title,#tBody{
+width:96%;
+}
+#ToolTip{
+background:#333333;
+border:0px none #333333;
+display:none;
+filter:alpha(opacity=90);
+left:0;
+-moz-opacity:.90;
+opacity:.90;
+overflow:visible;
+position:absolute;
+top:0;
+}
+#ToolTip p{
+background:#FFFFCC;
+border:1px solid #FFCC00;
+color:#CC0000;
+margin:0px 2px 2px 0px;
+padding:4px;
+}
+#veri,#pw,#hme{
+height:22px;
+padding-left:0px;
+}
+#uol li{
+line-height:150%;
+list-style:square;
+}
+#uol li.reg{
+color:#ffcc00;
+}
+#uol li.oth{
+list-style:none;
+}
+#whatismark{
+position: relative;
+visibility: visible;
+width: auto;
+}
+.home{
+color:#FFCC00;
+}
+.home:hover{
+color:#0099CC;
+text-decoration:none;
+}
+.ye{color:#FFFF00}
+.pi{color:#FF66CC}
+.br{color:#996666}
+.bl{color:#666666}
+.notice{
+background-image:url(notice00.jpg);
+height:296px;
+width:498px;
+}
+.warning{
+background-image:url(warning0.jpg);
+height:296px;
+width:498px;
+}
+.error{
+background-image:url(error000.jpg);
+height:296px;
+width:498px;
+}
+.imgbar{
+background-color:#343843;
+width:100px;
+margin:1px 8px 4px 0px;
+height:10px;
+float:left;
+}
+.mb a,.mb a:link,.mb a:visited{
+	color:#fff;
+	display:block;
+	padding:2px 4px 2px 4px;
+	background-color:#000;
+	/*font-size:10px;*/
+	font-weight:bold;
+	text-decoration:none;
+	border:1px solid #555b6c;
+}
+.mb a:hover{
+	border:1px solid #99cc00;
+	background-color:#000;
+	color:#99cc00;
+	text-decoration:none;
+}
+.mb a:active {
+	border:1px solid #fff;
+	background-color: #202a36;
+	color: #F2F0E4;
+	text-decoration:none;
+}
+.pictframe {
+width:640px;
+padding:4px;
+margin:4px;
+background-color:#2B2E37;
+border:1px solid #4B4E57;
+text-align:center;
+}

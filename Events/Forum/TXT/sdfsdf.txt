@@ -1,0 +1,191 @@
+dumrat: Give me a topic for this one	2007-04-02 17:43:39
+Ah, well the WebAdmin has announced that they will not take in any more submissions. So, anyone out there who wishes to discuss his/her strategy? I only know two contestants personally, and I know the strategies they use are far different from mine. So, go ahead if u feel like typing. 
+
+Before I go, a huge THANK YOU to the MARC team. Hopefully u will consider making this an annual event. Perhaps the next time I'll be able to call robot.ShootAtEnemy() ...... LOL. 
+
+		roshan	2007-04-02 01:55:50
+	
+	:P if you really want to shoot at other enemy robots, try "RoboCode Ireland Programming Competition". @ http://www.robocode.ie/index.html 
+
+cheers!	
+		
+		flowerpower	2007-04-02 07:45:38
+	
+	Did you miss the Imagine Cup - Project Hoshimi challenge? It's fun too... Try it next year!	
+		
+		flowerpower	2007-04-02 08:02:47
+	
+	Did you guys used a timer to avoid idle penalty?
+
+I used a timer with 1000ms interval (actually 950ms, timers aint that acurate and i don't trust them much) and simply call GetInfo(). The robot enables the timer when she's about to start an expensive code block.
+
+Idle penalty is 50 per sec; With timer you lose only 1 per sec. She got whole lot of time to think without worring about the battery. ;-)	
+		
+		rukshan	2007-04-02 08:07:56
+	
+	flowerpower, can you please explain more about this trick :D How does the timer reduces the idle time penalty ? What does the timer really do ?
+
+Thanks
+	
+		
+		roshan	2007-04-02 08:40:24
+	
+	flower power, what is the map size you used??? in my earlier prototypes i had called GetInfo() to get the remaining battery at each step. but later i realized that i never got penalized by idle penalty and so i didnt bother about it any longer. :D	
+		
+		vpj	2007-04-02 08:57:44
+	
+	roshan,
+have tried the robotcode competition?
+
+Is there anybody doing IPSC - http://ipsc.ksp.sk/??
+
+vpj	
+		
+		roshan	2007-04-02 09:38:33
+	
+	well, VPJ, some time back i've downloaded this api and played a bit with it. its not really open for everyone.. not sure though.... :D	
+		
+		dumrat	2007-04-02 09:52:33
+	
+	flowerpower, think you are mistaken with the idle penalty scenario. The idle times add up until it hits 1s. Then 50 battery units are deducted. The only way in such a situation to not get penalized is to do all your caculations within the resolution of the spaceship timer. If it had a resolution of 1ms, you'd have to do all your calculation within 1ms to not get penaized. i don't think the resolution is better than 1ms coz there aren't many timers which provide such resolutions. And, by the way, I don't think idle penalty should bother anyone much. A computer does a lot in 1ms. So, Roshan is right. 
+flowerpower, what language did u use, and what is the timing function? 
+And, another question, how did u guys "Search" the map?	
+		
+		flowerpower	2007-04-02 13:02:27
+	
+	I think your robots are pretty much quick thinkers ;) so you guys never seen the penalty in actions!
+
+My robot got lot of things to do;
+
+* Find shortest path between two locations using a home made version of Dijsktra (How do you pronounce it?)
+* Find the best location to put those EVIL :( black packs, so she won't get hurt again
+* When the storage is full, find the best combination of packages in storage to drop before picking up a new (more valuable) one
+and many more...
+
+Most of them are not well optimized (wish they are not buggy!), especially the shortest path algo takes about 1-10 secs when two points are quite far away. So when my bot is in a dead end (and when she needs to find the shortest path home) she just hangs for few seconds, thinking...
+
+If she remain idle for 10 secs -> loses 500 battery; but with the timer thing she only lose 10;
+
+Aren't your robots remain idle, thinking like that?
+
+It's only important if your robot got VERY EXPENSIVE calculations ;)
+
+----------------------------
+
+I used C# (I think I'm in love with .NET Framework) to give life my robot (I haven't gave her a name yet. Have you? Since the first day I heard about Marc, I spent weeks doing nothing but thinking a hot name to her ;)	
+		
+		vpj	2007-04-02 13:09:02
+	
+	Why didn't you use a BFS to find the shortest path? Wouldn't it be faster? Also, getting help of a heap to Dijsktra should reduce the time by a huge factor	
+		
+		rukshan	2007-04-02 13:09:31
+	
+	My robot also do lot of expensive calculations... But I never thought of a way to avoid the penalty.. You should have posted this earlier :D
+	
+		
+		vpj	2007-04-02 13:14:35
+	
+	Are you sure that using a timer reduced the idle time penalty, because from what I have experienced it reduces the idle penalty if the robot stays idle for 2 x .5 sec slots. 
+i.e. idle for .5 secs, then some command, again idle for .5 secs would loose 50 battery units.	
+		
+		dumrat	2007-04-02 16:39:02
+	
+	Glad to find another Dijkstra's user. Well, I used Dijkstra's algorithm as well. And the data structures u use for the open list and the closed list have a Huge(I mean it) impact on the performance of the algorithm. BFS is bad for our purpose. BFS uses a heuristic and we have got teleport beams in our maps. So we can forget BFS. Dijkstra's algorithm is the way to go. 
+At first when I made my version of Dijkstra's algorithm it was so slow that sometimes the robot would stop and only after about 5, 6 seconds would it start moving. If that code happened to see b13 maps, I don't know for how long it would have stood there caculating. So, you are right. The idle penalty does count in that scenario. But if u optimize your algorithm, u can make it so fast that idle penalty does not come into play. 
+I think vpj is right. I haven't tested it, but from what we know, if u remain idle for .5 seconds and then another .5 seconds sometime later, u still lose 50 battery units. So, are u sure that ur method works?
+I used C++. It's the only thing I know. The STL came in very very handy.	
+		
+		rukshan	2007-04-02 16:49:24
+	
+	I used BFS. I think it worked for me :D . What do you mean by BFS uses a heuristic?
+
+btw, what is STL ? Standard Library ?
+
+Thanks	
+		
+		roshan	2007-04-02 17:10:03
+	
+	dumrat,
+-------------
+i also used BFS and i never got an idle penalty. and of course it may use to work with teleports without any problem.. and as for rukshan, for me also it worked perfectly.
+
+and BFS heuristic thigy, if i'm correct, BFS is not an heuristic search method. (ah, there's a heuristic search method called "Best First Search".. but we used Breadth First Search.. aite.. :)) but of course, optionally we can implement search heuristics to BFS for the problem at hand. 
+
+please correct me if i'm wrong. (peminili baaraganu lebe... amathanna ROSHAN.. :)
+
+
+rukshan
+---------
+heuristic : The basic idea of heuristic search is that, rather than trying all possible search paths, you try and focus on paths that seem to be getting you nearer your goal state. (source: http://www.cee.hw.ac.uk/~alison/ai3notes/subsection2_6_2_3.html)
+
+and of course STL is Standard Tag Library for C++. it never was anything for me cozz i did the entire thingy purely using C.
+
+cheers!
+-Roshan
+The MadGuy	
+		
+		dumrat	2007-04-02 17:15:42
+	
+	STL is the standard template library, yep.
+
+BFS chooses the node (square) closest to the end point, right? That is, suppose that we need to find a path from (10, 10) to (30, 10). Now the ending point is to the east of the starting point. BFS will start by checking (11, 10), if that square is clear, then (12, 10), right? So, it does not look at (10, 11), (10, 9) or (9, 10). (Do correct me if i am wrong.). Now suppose that we have a teleport beam at (9, 10) which has the link to (31, 10). BFS will never even examine the teleport beam if the path to the east is clear. So, BFS gives a path 20 units long while the shortest path was only 2 or 3 units long. That is why BFS is bad when there are teleport beams, portals, etc. On the other hand, Dijkstra's algorithm gives the shortest path every time. But Dijkstra's is much slower. Yes.	
+		
+		dumrat	2007-04-02 17:22:40
+	
+	Oh, just saw Roshan's post now. I thought it was Best First Search, but u've used breadth first search. Fine.
+And, by the way, which is better, Breadth First Search or Dijkstra's? Do u guys have any ideas? 
+
+P.S. You can add a heuristic to Dijkstra's as well and u get A* which performs much faster than Dijkstra's depending on the heuristic. But, A* suffers from the same problem as BFS - teleport beams.	
+		
+		roshan	2007-04-02 17:42:41
+	
+	dumrat, 
+
+i think what you have described two posts back is about best first search. isnt it? and i'm not so sure whether breadth first or dijkstra is better. anyway, what i know is, both algorithms can facilitate teleports so easily. for an example you have used Dijkstras and i've used BFS and both robots work on teleports.. :))
+
+cheers!
+-Roshan
+The MadGuy	
+		
+		roshan	2007-04-02 17:43:39
+	
+	and of course Breadth first always gives the best move from source to any revealed node. (so its not heuristic anyway.)
+
+------------------------------------------------------------------------------------
+
+aravindadp: Think You are Smart?	2007-04-02 13:47:53
+Hi All,
+
+So that is over, isn't it? Well these guys vajeemarc, rukshan, vpj, Pinibindu or even dumrat may have win the competition if no other smart guys who didn't reveal their bots till last minute. (I heard some guys are doing so but I don't get the point there. In the last set of maps I think a fair algorithm can get 2400 marks which is the maximum attainable.(But with less battery left of course))
+Well Do you think you are smart?(Pardon me if my words hurt you) Do you know that there is a bug in the marc API such that you can write a simple robot in just one or two hours that can run through all the maps (Probably with highest marks). Yeah you might have been the grand winner(At least for few hours if they disqualified you seeing that you have screwed it all) if the same bug is there in their system.(I heard they are using another set of tools to test our robots -Don't know for sure.) Well don't panic. I didn't write a robot using that bug.(I can see those top most guys relaxing :-) - Well even I came across the bug accidentally a day before the deadline but didn't realized it's importance.)
+
+Status mindStatus;
+mindStatus = ReadForum(248);
+if(mindStatus == CONFUCED)
+{
+wait(86400);
+ReadForum(248);
+}
+else
+{
+mindStatus == TryAllIllegalInput(MARC_API);
+if(mindStatus == CONFUCED)
+{
+wait(86400);
+ReadForum(248);
+}
+else if(mindStatus == ANGRY)
+{
+for(int i = 10; i > 10; i++)
+say(i);
+}
+else if(mindStatus == GOT_THAT)
+RelpyForum(248);
+} 
+}
+
+
+OK guys good luck for all of you. I'll upload that damm bot to a file hosting server tomorrow and then I'm going to live a life without further trouble of teaching to robots(I was to buy a Lego MindstormNXT, some handibords and other real bot Stuffs. :-( )
+
+Think different.
+???????????

@@ -1,0 +1,55 @@
+Hi MARC
+
+At the beginning of my program I retrieve the battery life and I kept decrementing the count in every action. At the end of the program I print this battery count left. But what shows on the SpaceShip UI is higher than my count.
+
+I double checked my code and nothing wrong in it. Is there anything wrong in the MARC documentation on battery consumption?.
+
+Please help.
+
+		ranaya	2007-02-16 03:09:52
+	
+	Oops..!. I can observe this only for the 5th map of 8th batch run - FYI	
+		
+		sirinath	2007-02-17 20:25:37
+	
+	Open source the API code for public scrutiny	
+		
+		ranaya	2007-02-18 01:27:45
+	
+	OK, If the MARC guys agrees to do so I will do it after the competition is over :) .
+
+Happy training your robot...
+
+
+Hello,
+
+Make this an anual event.
+
+		yapa	2007-02-17 23:00:52
+	
+	Well.. Yeah maybe but it would have to be of a very different nature. Or there's no point..!
+
+
+dante: when will the deadline be decided?	2007-02-17 17:44:13
+when are you guys going to decide the deadline?
+
+		WebAdmin	2007-02-17 17:44:13
+	
+	Within next week. Cast your vote on the deadline poll.
+
+
+Dear Marc guys during the Batch Run 7 the points I received was 0. So I down loaded the Batch 7 maps and run my program. But I received 163 points. What could be wrong?
+
+		ranaya	2007-01-31 21:14:12
+	
+	Please tell me how did you find the initial battery power for each map?
+
+Happy teaching your robot....	
+		
+		yapa	2007-02-17 00:41:59
+	
+	If you have used any random decisions in your robot then that's perhaps the case. However sometimes we do have to make random decisions due to our limited vision. Drawing out a map would be a lot of help. But sometimes it's just luck. 	
+		
+		ranaya	2007-02-17 19:53:02
+	
+	Yes. Unless your program uses random numbers to take decisions it should behave the same for all runs. IMO the use of random numbers is not a good practice here unless you do some AI.

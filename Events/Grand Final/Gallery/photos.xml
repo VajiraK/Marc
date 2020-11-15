@@ -1,0 +1,173 @@
+<gallery
+base=""
+background="#FFFFFF"
+banner="#F0F0F0"
+text="#000000"
+link="#0000FF"
+alink="#FF0000"
+vlink="#800080"
+date="6/25/2007">
+<sitename>MARC Grand Final Event Photos</sitename>
+<photographer>MARC</photographer>
+<contactinfo>Millennium Information Technologies</contactinfo>
+<email></email>
+<security><![CDATA[]]></security>
+<banner font="Arial"fontsize="3"color="#F0F0F0"></banner>
+<thumbnail base="thumbnails/"font="Arial"fontsize="4"color="#F0F0F0"border="0"rows="3"col="5"></thumbnail>
+<large base="images/"font="Arial"fontsize="3"color="#F0F0F0"border="0"></large>
+<images id="images">
+<image
+path="marc_gfe_01.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_01.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[Completing the Campus Tour]]></meta>
+<meta name="description"><![CDATA[The guests were given a campus tour of Millennium IT before the event.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_02.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_02.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[About to Start]]></meta>
+<meta name="description"><![CDATA[Moments before the ceremony as participants take their seats and are waiting for the event to start.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_03.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_03.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[The Welcome Speech]]></meta>
+<meta name="description"><![CDATA[The guests are being briefed about the MARC grand final event.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_04.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_04.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[Lakshitha addressing the guests]]></meta>
+<meta name="description"><![CDATA[Lakshitha(Manager,R&D)explaining the initiatives of MARC.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_05.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_05.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[The Audience]]></meta>
+<meta name="description"><![CDATA[The participants,their parents and the Millennium IT staff who participated for the MARC grand final event.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_06.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_06.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[Tony addressing the guests]]></meta>
+<meta name="description"><![CDATA[Tony(CEO)addressing the guests on the software industry and its movements.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_07.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_07.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[The Demo]]></meta>
+<meta name="description"><![CDATA[The audience viewing the demo of the final batch runs.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_08.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_08.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[After the Demo]]></meta>
+<meta name="description"><![CDATA[The audience applauding for the winners of MARC.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_09.jpg"
+width="470"
+height="480"
+thumbpath="marc_gfe_09.jpg"
+thumbwidth="73"
+thumbheight="75">
+<meta name="title"><![CDATA[Presenting The Awards]]></meta>
+<meta name="description"><![CDATA[Tony presenting the awards to the winners.]]></meta>
+</image>
+<image
+path="marc_gfe_10.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_10.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[Tony,Anush,Ajith and others]]></meta>
+<meta name="description"><![CDATA[Anush(COO)talking to a parent.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_11.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_11.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[Refreshments]]></meta>
+<meta name="description"><![CDATA[Everyone enjoying the refreshments and acquaintances.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_12.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_12.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[Checking the Code]]></meta>
+<meta name="description"><![CDATA[The participants checking thier robots on the Spaceship program.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_13.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_13.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[Refreshments(bird's eye view)]]></meta>
+<meta name="description"><![CDATA[]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+<image
+path="marc_gfe_14.jpg"
+width="720"
+height="480"
+thumbpath="marc_gfe_14.jpg"
+thumbwidth="75"
+thumbheight="50">
+<meta name="title"><![CDATA[The Winners,Top 10 Participants and Others]]></meta>
+<meta name="description"><![CDATA[The winners(front row)in the two categories along with their fellow competitors posing for a photograph at the entrance of Millennium IT.]]></meta>
+<meta name="copyright"><![CDATA[Copyright Millennium All-Island Robot Competition]]></meta>
+</image>
+</images>
+</gallery>

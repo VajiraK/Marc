@@ -1,0 +1,60 @@
+8:14 AM 1/31/2007
+* Add MakeWay() to GoForward()
+* Improve IsBlackFeasible() by adding bfound
+* Move IsBlackFeasible()  to MakeWay()
+
+2:25 PM 1/31/2007
+* Add m_row_ord[] array which contains pic cord for scan row vice
+
+9:41 AM 2/2/2007
+* Height sorting for SmartPick() in addition to color sorting
+* Perfectly fill belly (120) if possible(PaintBlack())
+
+11:47 AM 2/2/2007
+* Add realbk member to map and many other placess that needs
+  this is to prevent reducing helth deu to black painted color packs
+
+5:23 PM 2/2/2007
+* Add CollectColor(robot,MODE_COLE_SECURE) to the Teleporting pos of Finish()
+
+10:58 AM 2/4/2007
+* Optimize TryDirections(), Remove FaceUnexplore(), Now save some bat due to low turns
+
+1:03 PM 2/4/2007
+* Optimize IsBeenThere()
+
+9:18 AM 2/5/2007
+* Replace remaining robot.Teleport() by DoTelePort(robot)
+* m_full_bat	= m_rem_bat + 1
+
+8:51 AM 2/6/2007
+* Added CMyBatAgent class
+* Move CMyStore up
+* Remove Bat-Booms
+
+8:09 AM 2/7/2007
+* Fix a critical bug in GetFreeSteps()
+* Add "if((m_map[m_gut_p.x][y].type==CL_FREE)||(m_map[m_gut_p.x][y].type==CL_BLACK))" to CMyGutter::CodSearch()
+* Add pic taking capability to CMyTelePort::CentreTeleport() for avoid passing teleports.
+* Add Teleport detection for TyrDirection
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

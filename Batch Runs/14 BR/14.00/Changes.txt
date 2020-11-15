@@ -1,0 +1,208 @@
+8:14 AM 1/31/2007
+* Add MakeWay() to GoForward()
+* Improve IsBlackFeasible() by adding bfound
+* Move IsBlackFeasible()  to MakeWay()
+
+2:25 PM 1/31/2007
+* Add m_row_ord[] array which contains pic cord for scan row vice
+
+9:41 AM 2/2/2007
+* Height sorting for SmartPick() in addition to color sorting
+* Perfectly fill belly (120) if possible(PaintBlack())
+
+11:47 AM 2/2/2007
+* Add realbk member to map and many other placess that needs
+  this is to prevent reducing helth deu to black painted color packs
+
+5:23 PM 2/2/2007
+* Add CollectColor(robot,MODE_COLE_SECURE) to the Teleporting pos of Finish()
+
+10:58 AM 2/4/2007
+* Optimize TryDirections(), Remove FaceUnexplore(), Now save some bat due to low turns
+
+1:03 PM 2/4/2007
+* Optimize IsBeenThere()
+
+9:18 AM 2/5/2007
+* Replace remaining robot.Teleport() by DoTelePort(robot)
+* m_full_bat	= m_rem_bat + 1
+
+8:51 AM 2/6/2007
+* Added CMyBatAgent class
+* Move CMyStore up
+* Remove Bat-Booms
+
+8:09 AM 2/7/2007
+* Fix a critical bug in GetFreeSteps()
+* Add "if((m_map[m_gut_p.x][y].type==CL_FREE)||(m_map[m_gut_p.x][y].type==CL_BLACK))" to CMyGutter::CodSearch()
+* Add pic taking capability to CMyTelePort::CentreTeleport() for avoid passing teleports.
+* Add Teleport detection for TyrDirection
+
+1:04 PM 2/8/2007
+* Bind all stock things to a one structure
+* Re-use secure packs tags
+* Add DropBlackPacks() to Finish()
+* Add DropBlackPacks() to BYTE PickColor(CRobot &robot)
+
+7:24 AM 2/9/2007
+* Now GetFreeStepsEx(),GetFreeSteps() return in map eages
+
+3:26 PM 2/10/2007
+* Added exchanging ability (So many changes)
+
+8:48 PM 2/10/2007
+* Remove m_point global ver
+* Removed MAP_INVALIED constant
+
+7:30 PM 2/11/2007
+* Secure list is sorted to packs type
+
+9:45 AM 2/12/2007
+* Fixed bug in void CMyBatAgent::PickSecured()
+
+11:36 AM 2/13/2007
+* Add 2000 threshold to CheckBatEx()
+* Add Belly Exchange
+
+9:01 AM 2/14/2007
+* Color stock now sorted to type
+* Exchanging method is choose by calculating the gain
+
+9:00 AM 2/15/2007
+* Add st_bat_avg to DWORD CMyBattery::SendAgent()
+* Move CMyMap up
+
+2:31 PM 2/16/2007
+* Exchanged copletly reviced
+* Now exchange done using m_cat
+* Add SaveOldTag() and GetOldTag()
+
+1:29 PM 2/17/2007
+* Separate color stock removed
+* Fixed critical bug in memcpy() when managing all stock types
+
+7:33 PM 2/18/2007
+* Add FillBelly()
+* Add some memcpy()
+
+10:59 AM 2/19/2007
+* Add bfound to PassBlacks()
+* Remove DirtyArea() and put code to the calling locatuon (Reduce over head)
+
+11:35 AM 2/21/2007
+* Change secure step count from 20 to 5 in GoForward() "WONDERFUL GAIN"
+
+2:21 PM 3/8/2007
+* Pin point helth evaluation using BatAgent 
+* Add SendAgent() to Packages class to check helth
+
+8:34 AM 3/10/2007
+* Fix some bug in helth
+
+1:57 PM 3/11/2007
+* Add BatCheck() to Exchange (Critical)
+
+4:33 PM 3/14/2007
+* Modify IsSecured()
+* Impliment location cheking to PickSecured() via m_sec_pic_loc
+* Now CheckBat() in PickSecured()
+* Add PickSecured() to GoForword(),DropColorPacks()
+
+9:19 PM 3/15/2007
+* Add PickSecured() bellow finish loop
+* Remove GetDirtyRage() and used GetFreeStepsEx(m_curent,m_facing,true)
+* Fixed a helth bug and some minner optimizations
+
+3:05 PM 3/17/2007
+* Add "chkdirty" to IsBlackFeasible(), This Save Battory and Helth
+* Add MY_PIC_ORD m_row_ord to address step problem
+
+7:55 AM 3/19/2007
+* Fix bug in ditry count of GetFreeStepsEx() (After adding MY_PIC_ORD-see 3:05 PM 3/17/2007 log)
+
+2:42 PM 3/20/2007
+* Now secured loc is check for each pack. To impliment this followings are added
+loc member to MY_SC_POINT and relevent changes to other func
+* m_sec_pic_loc ver is also there to check secured locations, this may improve the performance.
+* Remove m_picked and other related from CMyBatAgent because now it unnecessary
+
+9:37 AM 3/21/2007
+* Interlegent Bat check in FillBelly() and ExchangePacks() to prevent lost.
+	1. RestoreSecurePacks()
+	2. Add bool remove parameter to RemoveFromSecure()
+* Now not Black packs packs if FillBelly() fails it's done by ExchangePacks()(This is a bub fix)
+
+8:56 PM 3/21/2007
+* Add code to protect Teleported source from blocking by packs(Bug Fix)
+	1. CL_BLOCK
+	2. BlockArea()
+and if((m_map[map.x][map.y].type==CL_FREE)&&(m_map[map.x][map.y].dirty!=CL_BLOCK)) to find droping place
+
+9:24 PM 3/22/2007
+* Set Release Build Optimization to Default (Catabooms(15000) score defrence)
+
+10:43 PM 3/23/2007
+* Improve ReleaseExchange() - fild,f,b
+
+9:46 PM 3/24/2007
+* Copmletely re-write CMyStock::ReleaseExchange()
+* Add CMyStock::ReleaseTail()
+* Now two exchnge func ExchangeBalance(),ExchangeUnBalance()
+* Add dirty member to MY_CAT_ITEM
+
+Upload ver 10.00 10:33 PM 3/24/2007
+--------------------------------------------------------------------
+
+10:33 PM 3/24/2007
+
+* Incriment ver to 11.00
+
+12:52 PM 3/25/2007
+
+* Catalog is Type and Height sorted (Good gain)
+* Fix m_cat.item[].dirty bug add di[] (ReleaseExchange())
+
+5:22 PM 3/25/2007
+
+* Now First ExchangeUnBalance() then ExchangeBalance()
+
+Upload ver 11.00 5:23 PM 3/25/2007
+--------------------------------------------------------------------
+
+5:24 PM 3/25/2007
+* Incriment ver to 12.20
+
+5:13 PM 3/26/2007
+* Now there are no paited blackies
+* Rename realbk member to free and so related many changes
+
+8:48 PM 3/27/2007
+* Improve ReleaseExchange()
+* Fixed bug in ExchangeBalance()(In selecting equal and no equal ReleaseExchange())
+* Add m_blacklist to bypass Bat hugging locations when do PickSecured() by GoForward (BR11 MAP4 BAT 125000)
+
+8:39 AM 3/28/2007
+* Rename PassBlacks() to PassPacks() and improve it
+* Add helth check to DropBlackPacks()
+* Choose Non Painting as the best project to carry on
+* Rename IsBlackFeasible() to IsPassFeasible()
+
+7:25 PM 3/29/2007
+* Re-Write IsPassFeasible()
+* Reset Ver to 12.00
+
+9:13 AM 3/30/2007
+* Add   if(m_max_score)
+	{//Nothing to do with those packs
+		m_map[map.x][map.y].free = VALIED;
+		return RET_STOP_MIS;
+	} to CMyExchange::ExchangeUnBalance()
+
+* Add if(m_max_score) return RET_STOP_MIS to CMyMission::GoForward()
+
+Upload ver 12.00 2007 Mar 30 08:23 PM
+-------------------------------------------------------------------------------------------
+
+7:46 AM 3/31/2007
+* In CMyBatAgent::Move() change "return (WORD)(m_bat_st/m_total_st)*10" to "return (WORD)(m_bat_st/m_total_st)*5"
+* Incriment ver to 14.00

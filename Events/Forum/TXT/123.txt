@@ -1,0 +1,46 @@
+ www.givantha/hi5.com
+
+Pinibindu: Vijeemarc, rukashan & vpj......	2007-04-02 10:54:07
+Now the competition is over no? so pls tell us what made your robots reached the maximium marks on batch 13.
+
+I have never got that much. 
+
+Thanks.
+
+		dumrat	2007-04-02 02:20:01
+	
+	Yep, and do mention how much battery life u had left at the end.	
+		
+		rukshan	2007-04-02 07:25:44
+	
+	Pinibindu -> Keep searching till you come across maximum number of YELLOW packs while keeping an eye on the battery life... :)
+
+dumrat -> 40 000 - 50 000 units	
+		
+		flowerpower	2007-04-02 07:38:03
+	
+	Hi TOP SCORED GUYS! Can you let us have your robots (executables) so we can check how they performe?	
+		
+		dumrat	2007-04-02 09:56:50
+	
+	40000 - 50000 in every batch 13 map, or as an average. I don't think that b13-m1 for example allowed a battery life save of 40000 - 50000. The starting point is so far away. But in b13 - m2, m3, m4, and perhaps even in m5, u maybe right.	
+		
+		dumrat	2007-04-02 09:57:02
+	
+	40000 - 50000 in every batch 13 map, or as an average? I don't think that b13-m1 for example allowed a battery life save of 40000 - 50000. The starting point is so far away. But in b13 - m2, m3, m4, and perhaps even in m5, u maybe right.	
+		
+		rukshan	2007-04-02 10:05:50
+	
+	Yeah.. it is the average.. You are correct.. If I remember properly second map had only 23000 units left. 	
+		
+		roshan	2007-04-02 10:14:09
+	
+	you guys are picking only yellow packs? or consider about other packs?
+
+and in batch 13, am i correct if i say that your bots move to the left than right? 	
+		
+		rukshan	2007-04-02 10:54:07
+	
+	Obviousely you should give priority to the yellow packs. But should consider the others too.
+
+Well.. I can't say exactly which way it moved most.. But what you are thinking is correct.. bot should be lucky to move in the direction where you find most of the yellow packs

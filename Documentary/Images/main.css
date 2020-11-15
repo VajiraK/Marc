@@ -1,0 +1,72 @@
+/* Vajira Kulatunga */
+
+.normalbody{
+background:#1F2935;
+color:#CCCCCC;
+font:13px Tahoma,Arial,Verdana;
+height:100%;
+}
+.head1{
+color:#CCCCCC;
+font:14px;
+}
+.head2{
+color:#FEA038;
+font:14px;
+font-weight:bold;
+}
+.textsmall{
+color:#CCCCCC;
+font:8px;
+}
+.textcode{
+background:#C8C8C8;
+color:#1F2935;
+font:8px;
+}
+.stampcode{
+color:#1F2935;
+font:8px;
+}
+
+/*Tabs --------------*/
+.navibackground{
+background:url(tab.gif);
+}
+.navitext{
+color:#000000;
+font-size:12px;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+}
+.navitexthighlight{
+color:#FFFFFF;
+font-size:12px;
+font-weight:bold;
+text-align:center;
+text-decoration:none;
+}
+.navitext:hover,.homewhitetext{
+color:#DCDCDC;
+}
+/*Tabs --------------*/
+
+/*Hover Links--------------*/
+.textlink{
+font:12px;
+color:#99CC00;
+text-decoration:none;
+}
+.textlink:hover{
+color:#0099CC;
+text-decoration:underline;
+}
+/*Hover Links--------------*/
+
+
+
+
+
+
+

@@ -1,0 +1,396 @@
+HTML {
+	BACKGROUND: url(../images/back.jpg) #1f2935; MARGIN: 0px; FONT: 11px Tahoma,Arial,Verdana; COLOR: #cccccc; HEIGHT: 100%
+}
+BODY {
+	BACKGROUND: url(../images/back.jpg) #1f2935; MARGIN: 0px; FONT: 11px Tahoma,Arial,Verdana; COLOR: #cccccc; HEIGHT: 100%
+}
+INPUT {
+	FONT: 11px Tahoma,Arial,Verdana
+}
+TEXTAREA {
+	FONT: 11px Tahoma,Arial,Verdana
+}
+SELECT {
+	FONT: 11px Tahoma,Arial,Verdana
+}
+OPTION {
+	FONT: 11px Tahoma,Arial,Verdana
+}
+TD A IMG {
+	BORDER-TOP-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-LEFT-STYLE: none; BORDER-BOTTOM-STYLE: none
+}
+.about {
+	BACKGROUND: url(../images/button_about.jpg); WIDTH: 77px
+}
+.aboutmit {
+	BACKGROUND: url(../images/button4.jpg); WIDTH: 133px; HEIGHT: 29px
+}
+.bodytextdark {
+	COLOR: #000000
+}
+.blacktext {
+	COLOR: #000000
+}
+.bullet {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 0px; PADDING-BOTTOM: 0px; MARGIN: 0px; COLOR: #99cc00; PADDING-TOP: 0px; FONT-FAMILY: Tahoma,Verdana; HEIGHT: 13px; TEXT-ALIGN: right; TEXT-DECORATION: none
+}
+.buttonmiddleline {
+	BACKGROUND: url(../images/button_mid.jpg); TEXT-ALIGN: center
+}
+.buttons {
+	BORDER-RIGHT: #555b6c 1px solid; BORDER-TOP: #555b6c 1px solid; FONT-WEIGHT: bold; BACKGROUND: #000000; BORDER-LEFT: #555b6c 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #555b6c 1px solid; HEIGHT: 21px
+}
+.cancel {
+	BORDER-RIGHT: #1f2630 1px solid; BORDER-TOP: #1f2630 1px solid; BACKGROUND: #41454f; BORDER-LEFT: #1f2630 1px solid; COLOR: #000000; BORDER-BOTTOM: #1f2630 1px solid
+}
+.content TD {
+	TEXT-ALIGN: left! important
+}
+.contract {
+	DISPLAY: none
+}
+.copyright {
+	FONT: 10px Arial,Helvetica,sans-serif; COLOR: #999999
+}
+.countback {
+	BACKGROUND: url(../images/countback.gif); HEIGHT: 33px; TEXT-ALIGN: center
+}
+.countback2 {
+	HEIGHT: 33px; TEXT-ALIGN: center
+}
+.countdownback {
+	BACKGROUND: url(../images/intoimage7.jpg)
+}
+.default {
+	FONT-WEIGHT: bold
+}
+.dimmed {
+	COLOR: #686868
+}
+.downloads {
+	BACKGROUND: url(../images/button3.jpg); WIDTH: 80px; HEIGHT: 29px
+}
+.downloads {
+	BACKGROUND: url(../images/button_downlods.jpg); WIDTH: 74px
+}
+.errorbody {
+	FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+#forumTable .topic {
+	FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+.textpath {
+	FONT-SIZE: 12px; TEXT-ALIGN: left
+}
+.errorinput {
+	BORDER-RIGHT: #d40000 2px solid; BORDER-TOP: #d40000 2px solid; BACKGROUND: #fff2f2; BORDER-LEFT: #d40000 2px solid; COLOR: #dd0000; BORDER-BOTTOM: #d40000 2px solid
+}
+.errormid {
+	PADDING-LEFT: 30px; BACKGROUND: url(../images/errormid.jpg); VERTICAL-ALIGN: middle; HEIGHT: 275px; TEXT-ALIGN: left
+}
+.errorMsg {
+	FONT-WEIGHT: bold; COLOR: #ff6666
+}
+.errortable {
+	VERTICAL-ALIGN: middle; WIDTH: 100%; HEIGHT: 100%
+}
+#outer {
+	VERTICAL-ALIGN: middle; WIDTH: 100%; HEIGHT: 100%
+}
+.expand {
+	
+}
+.faq {
+	BACKGROUND: url(../images/button_faq.jpg); WIDTH: 35px
+}
+.footback {
+	BACKGROUND: url(../images/footback.jpg); HEIGHT: 57px
+}
+.foottext {
+	DISPLAY: block; PADDING-LEFT: 30px; FONT-WEIGHT: normal; LEFT: 30px; MARGIN-LEFT: 30px; COLOR: #999999; TEXT-INDENT: 30px; TEXT-ALIGN: left
+}
+.forum {
+	BACKGROUND: url(../images/button_forum.jpg); WIDTH: 53px
+}
+.forumback {
+	BACKGROUND: url(../images/forumback.jpg)
+}
+.heading {
+	FONT-SIZE: 16px; COLOR: #ffffff; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.home {
+	BACKGROUND: url(../images/button1.jpg); WIDTH: 55px; HEIGHT: 29px; TEXT-DECORATION: none
+}
+.home {
+	BACKGROUND: url(../images/button_home.jpg); WIDTH: 46px
+}
+.homebback {
+	BACKGROUND: url(../images/home_bback.jpg)
+}
+.homebodytext {
+	COLOR: #999999; TEXT-ALIGN: left; TEXT-DECORATION: none
+}
+.homemiddlebackground {
+	BACKGROUND: url(../images/homemidd_back.jpg)
+}
+.horline {
+	BACKGROUND: url(../images/horline.gif); HEIGHT: 2px
+}
+.infotips {
+	FONT-SIZE: 10px; BACKGROUND: #222c38
+}
+.insidebback {
+	BACKGROUND: url(../images/insideb_back.gif)
+}
+.insidelogonback {
+	BACKGROUND: url(../images/inside_horline.jpg)
+}
+.secondnavi {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 10px; FONT-SIZE: 12px; PADDING-BOTTOM: 10px; MARGIN: 10px; COLOR: #ffffff; PADDING-TOP: 10px
+}
+.secondnavi:link {
+	COLOR: #99cc00; TEXT-DECORATION: none
+}
+.line {
+	BACKGROUND: url(../images/line.gif); HEIGHT: 2px
+}
+.loginback {
+	BACKGROUND: url(../images/lo_back.gif)
+}
+.loginback2 {
+	BACKGROUND: url(../images/lo_back2.jpg)
+}
+.logintextlinks {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+.mand {
+	COLOR: #ffffff
+}
+.navitext:hover {
+	COLOR: #ffffff
+}
+.homewhitetext {
+	COLOR: #ffffff
+}
+.middle {
+	BACKGROUND: #ffffff; VERTICAL-ALIGN: top; WIDTH: 498px; TEXT-ALIGN: left
+}
+.navibackground {
+	BACKGROUND: url(../images/navi_back.jpg)
+}
+.navitext {
+	FONT-WEIGHT: bold; COLOR: #000000; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.navitexthighlight {
+	FONT-WEIGHT: bold; COLOR: #ffffff; TEXT-ALIGN: center; TEXT-DECORATION: none
+}
+.preload {
+	TEXT-ALIGN: left
+}
+.profilebox {
+	BORDER-RIGHT: #1f2630 1px solid; BORDER-TOP: #1f2630 1px solid; BACKGROUND: #41454f; VERTICAL-ALIGN: top; BORDER-LEFT: #1f2630 1px solid; COLOR: #cccccc; BORDER-BOTTOM: #1f2630 1px solid; TEXT-ALIGN: center
+}
+.righttext {
+	TEXT-ALIGN: right
+}
+.savechangers {
+	BORDER-RIGHT: #1f2630 1px solid; BORDER-TOP: #1f2630 1px solid; BACKGROUND: #41454f; BORDER-LEFT: #1f2630 1px solid; WIDTH: 90px; COLOR: #000000; BORDER-BOTTOM: #1f2630 1px solid
+}
+.score {
+	BACKGROUND: url(../images/button_score.jpg); WIDTH: 79px
+}
+.scoreboardhead {
+	PADDING-LEFT: 5px
+}
+.scoreboardmainheading2 {
+	FONT: 15px Arial,Helvetica,sans-serif; COLOR: #011c31
+}
+.scoreboardtext {
+	PADDING-RIGHT: 2px; PADDING-LEFT: 2px; PADDING-BOTTOM: 2px; PADDING-TOP: 2px; TEXT-DECORATION: none
+}
+.scorebtl {
+	BACKGROUND: url(../images/score_btl.gif)
+}
+.scorebtr {
+	BACKGROUND: url(../images/score_btr.gif)
+}
+.scoretopline {
+	BACKGROUND: url(../images/score_hort.gif)
+}
+.scoretopline2 {
+	BACKGROUND: url(../images/score_hort2.gif)
+}
+.scoreverlineleft {
+	BACKGROUND: url(../images/score_verl.gif)
+}
+.scoreverlinerite {
+	BACKGROUND: url(../images/score_verr.gif)
+}
+.smalltext {
+	FONT: 10px Arial,Helvetica,sans-serif; COLOR: #000000
+}
+.stepshading {
+	FONT-WEIGHT: bold; COLOR: #ffcc00
+}
+.story {
+	BACKGROUND: url(../images/button2.jpg); WIDTH: 55px; HEIGHT: 29px
+}
+.story {
+	BACKGROUND: url(../images/button_story.jpg); WIDTH: 44px
+}
+.textfields {
+	BORDER-RIGHT: #333333 1px solid; BORDER-TOP: #333333 1px solid; FONT-WEIGHT: normal; FONT-SIZE: 11px; BACKGROUND: #555b6c; BORDER-LEFT: #333333 1px solid; COLOR: #ffffff; BORDER-BOTTOM: #333333 1px solid
+}
+.textlink {
+	COLOR: #99cc00; TEXT-DECORATION: none
+}
+.logintextlinks:hover {
+	COLOR: #99cc00; TEXT-DECORATION: none
+}
+.textlink:hover {
+	COLOR: #0099cc; TEXT-DECORATION: underline
+}
+.textpathlink:hover {
+	FONT-SIZE: 12px; COLOR: #99cc00; TEXT-DECORATION: underline
+}
+.topbackshadow {
+	BACKGROUND: url(../images/top_back.jpg)
+}
+.tutorials {
+	BACKGROUND: url(../images/button_tutorials.jpg); WIDTH: 61px
+}
+.textpathlink {
+	FONT-SIZE: 12px; TEXT-DECORATION: none
+}
+.username {
+	FONT-SIZE: 12px; COLOR: #ffcc00
+}
+.verticaline {
+	BACKGROUND: url(../images/verticalline.gif); WIDTH: 2px
+}
+.whitetextlinks {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+.whitetextlinks:hover {
+	COLOR: #99cc00; TEXT-DECORATION: underline
+}
+#fff {
+	PADDING-LEFT: 30px; WIDTH: 250px
+}
+.replyTable {
+	MARGIN: 8px 0px 0px; TEXT-ALIGN: left
+}
+.replyTable .user {
+	COLOR: #ffcc00
+}
+.date {
+	PADDING-RIGHT: 4px; PADDING-LEFT: 4px; FONT-SIZE: 10px; VERTICAL-ALIGN: middle; COLOR: #999999; WHITE-SPACE: nowrap; TEXT-ALIGN: right
+}
+.reply {
+	PADDING-RIGHT: 12px; PADDING-LEFT: 12px; PADDING-BOTTOM: 12px; PADDING-TOP: 12px
+}
+#forumTable {
+	TEXT-ALIGN: left
+}
+#replyTable {
+	TEXT-ALIGN: left
+}
+#postTable {
+	TEXT-ALIGN: left
+}
+#headerimg {
+	TEXT-ALIGN: left
+}
+#registerdusers {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px
+}
+#prizeinfo {
+	PADDING-RIGHT: 15px; PADDING-LEFT: 15px
+}
+#reply {
+	WIDTH: 96%
+}
+#title {
+	WIDTH: 96%
+}
+#body {
+	WIDTH: 96%
+}
+#title {
+	WIDTH: 96%
+}
+#tBody {
+	WIDTH: 96%
+}
+#ToolTip {
+	BORDER-RIGHT: #333333 0px; BORDER-TOP: #333333 0px; DISPLAY: none; BACKGROUND: #333333; FILTER: alpha(opacity=90); LEFT: 0px; OVERFLOW: visible; BORDER-LEFT: #333333 0px; BORDER-BOTTOM: #333333 0px; POSITION: absolute; TOP: 0px; moz-opacity: .90; opacity: .90
+}
+#ToolTip P {
+	BORDER-RIGHT: #ffcc00 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #ffcc00 1px solid; PADDING-LEFT: 4px; BACKGROUND: #ffffcc; PADDING-BOTTOM: 4px; MARGIN: 0px 2px 2px 0px; BORDER-LEFT: #ffcc00 1px solid; COLOR: #cc0000; PADDING-TOP: 4px; BORDER-BOTTOM: #ffcc00 1px solid
+}
+#veri {
+	PADDING-LEFT: 0px; HEIGHT: 22px
+}
+#pw {
+	PADDING-LEFT: 0px; HEIGHT: 22px
+}
+#hme {
+	PADDING-LEFT: 0px; HEIGHT: 22px
+}
+#uol LI {
+	LINE-HEIGHT: 150%; LIST-STYLE-TYPE: square
+}
+#uol LI.reg {
+	COLOR: #ffcc00
+}
+#uol LI.oth {
+	LIST-STYLE-TYPE: none
+}
+#whatismark {
+	VISIBILITY: visible; WIDTH: auto; POSITION: relative
+}
+.home {
+	COLOR: #ffcc00
+}
+.home:hover {
+	COLOR: #0099cc; TEXT-DECORATION: none
+}
+.ye {
+	COLOR: #ffff00
+}
+.pi {
+	COLOR: #ff66cc
+}
+.br {
+	COLOR: #996666
+}
+.bl {
+	COLOR: #666666
+}
+.notice {
+	BACKGROUND-IMAGE: url(../images/notice.jpg); WIDTH: 498px; HEIGHT: 296px
+}
+.warning {
+	BACKGROUND-IMAGE: url(../images/warning.jpg); WIDTH: 498px; HEIGHT: 296px
+}
+.error {
+	BACKGROUND-IMAGE: url(../images/error.jpg); WIDTH: 498px; HEIGHT: 296px
+}
+.imgbar {
+	FLOAT: left; MARGIN: 1px 8px 4px 0px; WIDTH: 100px; HEIGHT: 10px; BACKGROUND-COLOR: #343843
+}
+.mb A {
+	BORDER-RIGHT: #555b6c 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #555b6c 1px solid; DISPLAY: block; PADDING-LEFT: 4px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #555b6c 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #555b6c 1px solid; BACKGROUND-COLOR: #000; TEXT-DECORATION: none
+}
+.mb A:link {
+	BORDER-RIGHT: #555b6c 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #555b6c 1px solid; DISPLAY: block; PADDING-LEFT: 4px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #555b6c 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #555b6c 1px solid; BACKGROUND-COLOR: #000; TEXT-DECORATION: none
+}
+.mb A:visited {
+	BORDER-RIGHT: #555b6c 1px solid; PADDING-RIGHT: 4px; BORDER-TOP: #555b6c 1px solid; DISPLAY: block; PADDING-LEFT: 4px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #555b6c 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #555b6c 1px solid; BACKGROUND-COLOR: #000; TEXT-DECORATION: none
+}
+.mb A:hover {
+	BORDER-RIGHT: #99cc00 1px solid; BORDER-TOP: #99cc00 1px solid; BORDER-LEFT: #99cc00 1px solid; COLOR: #99cc00; BORDER-BOTTOM: #99cc00 1px solid; BACKGROUND-COLOR: #000; TEXT-DECORATION: none
+}
+.mb A:active {
+	BORDER-RIGHT: #fff 1px solid; BORDER-TOP: #fff 1px solid; BORDER-LEFT: #fff 1px solid; COLOR: #f2f0e4; BORDER-BOTTOM: #fff 1px solid; BACKGROUND-COLOR: #202a36; TEXT-DECORATION: none
+}

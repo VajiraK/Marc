@@ -1,0 +1,70 @@
+﻿MARC BATCH RUN 1 - MAPS
+
+Please note that these maps are provided
+"as is" without express or implied warranty.
+
+
+====================================
+b1_m1.mmmf (Battery Used: 1500)
+
+Width,40
+Height,25
+Battery Life,1500
+Total Points,75
+Yellow Packs,2
+Pink Packs,1
+Brown Packs,2
+Black Packs,0
+Battery Packs,0
+
+====================================
+b1_m2.mmmf (Battery Used: 2000)
+
+Width,40
+Height,25
+Battery Life,2000
+Total Points,90
+Yellow Packs,2
+Pink Packs,2
+Brown Packs,2
+Black Packs,0
+Battery Packs,0
+
+====================================
+b1_m3.mmmf (Battery Used: 2000)
+
+Width,55
+Height,25
+Battery Life,2000
+Total Points,95
+Yellow Packs,3
+Pink Packs,1
+Brown Packs,2
+Black Packs,2
+Battery Packs,0
+
+====================================
+b1_m4.mmmf (Battery Used: 5000)
+
+Width,55
+Height,55
+Battery Life,5000
+Total Points,180
+Yellow Packs,5
+Pink Packs,4
+Brown Packs,2
+Black Packs,3
+Battery Packs,0
+
+====================================
+b1_m5.mmmf (Battery Used: 6000)
+
+Width,55
+Height,55
+Battery Life,6000
+Total Points,200
+Yellow Packs,2
+Pink Packs,4
+Brown Packs,10
+Black Packs,0
+Battery Packs,0
